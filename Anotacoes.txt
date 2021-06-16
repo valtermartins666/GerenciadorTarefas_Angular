@@ -1,0 +1,21 @@
+Para podermos trabalhar com o conteudo de cada ação do menu, (area abaixo do menu), trabalhamos com a tag "router-outlet", ou seja, onde os dados de cada ação deve aparecer...(Verificar app.component.html)
+
+Tag nav = tag de navegação
+
+Criar servico :
+ng g service "nomedoarquivo"
+
+Exemplo: ng g service tarefas/shared/tarefa ==> Estou criando o arquivo tarefa.ts e tarefa.spec.ts dentro da pasta shared localizado em tarefas
+
+Servicos devem ser importados e registrados em "providers".
+Modulos devem ser importados e registrados como "imports".
+Component devem ser importados e registrados como "declarations".
+
+"Const" é somente leitura, e nao deve passar por alterações.
+Se necvessário uma variavel na qual deverá passar por alterações, utilizar o "let".
+
+Criar componente:
+
+ng g component "nome do componente ou caminho e nome do componente"
+Exemplo: 
+ng g component tarefa/listar-tarefa
